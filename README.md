@@ -22,6 +22,7 @@ Each text is paired with a title and a label indicating whether the text is true
 - **Preprocessing**:
   - Text cleaning: lowercasing, non-letter symbols removing, stopword removal, masking, lemmatization and other.
   - Feature engineering: different symbols ratios, URLs ratios, average word length, stopword ratios and multiple others.
+  - Performed time-based data splitting to prevent data leakage and ensure realistic model evaluation on unseen data.
 
 ---
 
